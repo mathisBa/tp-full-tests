@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "vitest": "vitest",
     "prepare": "husky",
-    "e2e": "playwright"
+    "e2e": "playwright test"
   },
   "devDependencies": {
     "@playwright/test": "^1.52.0",
