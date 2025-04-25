@@ -82,3 +82,8 @@ export function computeTime(value) {
   }
   return "nuight";
 }
+
+export function mainTime(lune, soleil, terre) {
+  let value = getTime(lune, soleil, terre);
+  return computeTime(value);
+}
